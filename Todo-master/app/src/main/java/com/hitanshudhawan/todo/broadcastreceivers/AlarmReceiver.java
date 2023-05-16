@@ -14,7 +14,7 @@ import com.hitanshudhawan.todo.utils.Constants;
 import com.hitanshudhawan.todo.utils.NotificationHelper;
 
 /**
- * Created by hitanshu on 6/3/18.
+ * created by satyam and satvik implimenting
  */
 
 public class AlarmReceiver extends BroadcastReceiver {
