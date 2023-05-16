@@ -55,6 +55,7 @@ public class TodoAddActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        //main problem is solved here//
         int id = item.getItemId();
         switch (id) {
             case android.R.id.home:
@@ -122,7 +123,7 @@ public class TodoAddActivity extends AppCompatActivity {
                     new NotificationHelper(TodoAddActivity.this).scheduleNotification(ContentUris.parseId(uri), Todo.fromCursor(cursor).getTitle(), mTodoDateTime.getTimeInMillis());
                 }
             }
-        }
+        } //here is main gui added //
         finishAndRemoveTask();
     }
 }
